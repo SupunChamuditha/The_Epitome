@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### `npm install reactstrap react react-dom`
+### `npm install --save bootstrap`
+### `npm install remixicon --save`
+
 In the project directory, you can run:
 
 ### `npm start`
