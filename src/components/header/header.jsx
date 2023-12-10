@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./header.css";
-
+import Logo from "../../assent/logo/logo.png";
 import { Container } from "reactstrap";
 
 const navLinks = [
@@ -10,14 +10,6 @@ const navLinks = [
   },
   {
     display: "About",
-    url: "#",
-  },
-  {
-    display: "Menu",
-    url: "#",
-  },
-  {
-    display: "Recipes",
     url: "#",
   },
   {
@@ -35,12 +27,7 @@ const Header = () => {
       <Container>
         <div className="navigation">
           <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
-              <span>
-                <i class="ri-restaurant-2-line"></i>
-              </span>{" "}
-              Chef Food
-            </h2>
+            <a href="#"><img src={Logo} alt="" /></a>
           </div>
 
           <div className="nav__menu" ref={menuRef}>
@@ -53,6 +40,13 @@ const Header = () => {
                     </a>
                   </li>
                 ))}
+                <li className="nav__item">
+                  <div>
+                    <a className="btn-signin" href="#" onClick={menuToggle}>
+                      Sign in
+                    </a>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
