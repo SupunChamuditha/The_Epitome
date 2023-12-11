@@ -11,7 +11,7 @@ const Dashboard = () => {
         <div className="dashboard">
           <div className="title-wrapper">
             <p className="title-order">
-              <span>
+              <span className="title-order-span">
                 <span className="span-text-1">Epitome&#39;s</span>
                 <span> Order</span>
               </span>
