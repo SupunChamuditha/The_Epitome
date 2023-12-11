@@ -1,22 +1,21 @@
 .footer {
   background: #463c3b;
   width: 100%;
-  margin-top: 75px;
-  padding: 0 inherit !important;
+  margin-top: 50px;
 }
 
 .footer__top {
   display: flex;
   justify-content: space-between;
-  padding: 0 150px;
+  /* padding: 0 150px; */
 }
 .footer__link-title {
   color: #fff;
 }
 
 .link__item {
-    padding: 5px 20px;
-    /* padding-left: 0; */
+  padding: 5px 20px;
+  /* padding-left: 0; */
   background: transparent;
   color: #c4c4c4;
   border: none;
@@ -77,6 +76,9 @@ a:hover {
 /* make it reponsive */
 
 @media only screen and (max-width: 992px) {
+  .footer {
+    margin-top: 20px;
+  }
   .footer__top {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -108,6 +110,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .footer {
+    margin-top: 00px;
+  }
   .footer__top {
     padding: 0 0 0 60px;
     gap: 15px;
