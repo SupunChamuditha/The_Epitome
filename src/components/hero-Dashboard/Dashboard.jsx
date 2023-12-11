@@ -25,10 +25,10 @@ const Dashboard = () => {
           </div>
           <div className="sign-section">
             <p className="sign-in">
-              <a href="#">Sign In</a>
+              <a href="#">Sign in</a>
             </p>
             <p className="sign-up">
-              <a href="#">Sign Up</a>
+              <a href="#">Sign up</a>
             </p>
           </div>
           <div className="about-section">

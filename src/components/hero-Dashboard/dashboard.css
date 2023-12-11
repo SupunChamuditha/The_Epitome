@@ -5,7 +5,7 @@
 .dashboard {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 0.4fr 0.5fr;
+  grid-template-rows: 0.7fr 0.4fr 0.5fr;
 }
 
 .img-box {
@@ -52,19 +52,27 @@
   font-weight: 600;
 }
 
-.sign-in,
-.sign-up {
+.sign-section .sign-in a,
+.sign-section .sign-up a {
   border: 1px solid #c2a02f;
   padding: 10px 40px;
   border-radius: 40px;
+  cursor: pointer;
 }
 
-.sign-in {
+.sign-section .sign-in a {
   background: #c2a02f;
+  color: #fff;
 }
 
-.sign-in a {
-  color: #fff;
+.sign-section .sign-up a:hover {
+  /* background: #c2a02f; */
+  color: #c2a02f;
+}
+
+.sign-section .sign-in a:hover {
+    color: #382e2c;
+    /* background: none; */
 }
 
 .about-section {
@@ -99,9 +107,6 @@
   .about-section {
     grid-area: 3 / 1 / -2 / -1;
   }
-  .img-box img {
-    /* width: 400px; */
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -118,9 +123,8 @@
   }
   .dashboard .title-order,
   .dashboard .sign-section,
-  .dashboard .about-section{
+  .dashboard .about-section {
     padding-left: 0px;
-
   }
 
   .dashboard .sign-section {
