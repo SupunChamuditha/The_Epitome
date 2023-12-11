@@ -1,14 +1,14 @@
 .footer {
   background: #463c3b;
   width: 100%;
-  margin-top: 75px;
+  margin-top: 50px;
   padding: 0 inherit !important;
 }
 
 .footer__top {
   display: flex;
   justify-content: space-between;
-  padding: 0 150px;
+  /* padding: 0 150px; */
 }
 .footer__link-title {
   color: #fff;
