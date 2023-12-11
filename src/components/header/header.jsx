@@ -52,8 +52,8 @@ const Header = () => {
           </div>
 
           <div className="sign">
-            <div>
-              <a className="btn-signin" href="#">
+            <div className="btn-signin">
+              <a href="#">
                 Sign in
               </a>
             </div>

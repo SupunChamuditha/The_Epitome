@@ -120,7 +120,7 @@
   }
 
   .sign div {
-    padding: none;
+    padding: 0;
   }
 
   .sign .btn-signin {
